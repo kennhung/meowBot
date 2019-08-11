@@ -3,7 +3,7 @@ import logging
 import requests
 import json
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelName)s - %(message)s', level=logging.INFO)
+logging.basicConfig(level='INFO')
 
 with open('config.json') as config_file:
     data = json.load(config_file)
